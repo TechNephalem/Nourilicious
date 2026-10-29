@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const nutritionData = {
   flour: {
-    name: "Protein Chapathi Flour",
+    name: "Protein Chapathi Mix",
     serving: "Serving Size: 50g (approx. 2 chapathis) | Servings per 1kg Pack: 20",
     ingredients:
       "Whole Wheat Flour (Premium Sharbati Gehun), Isolated Plant Protein Blend (Pea Protein, Soy Protein Isolate), Whole Grain Dietary Fibre.",
@@ -13,7 +13,7 @@ const nutritionData = {
       "Contains Wheat (Gluten), Soy. Produced in a clean, certified facility following strict cross-contact and allergen control protocols.",
     storage:
       "Store in a cool, dry, hygienic place away from direct sunlight. Once opened, transfer contents to an airtight container to preserve freshness.",
-    route: "/products/protein-chapathi-flour",
+    route: "/products/protein-chapathi-mix",
     badge: "100% Whole Wheat Base",
     highlights: [
       { label: "Target Protein", value: "15g per 2 Chapathis" },
@@ -40,6 +40,24 @@ const nutritionData = {
       { label: "Ideal For", value: "Chai-Time, Workday & Commute" },
     ],
   },
+  soya: {
+    name: "Isolated Soya Protein Powder",
+    serving: "Serving Size: 30g (1 level scoop) | Servings per 1kg Pack: ~33",
+    ingredients:
+      "100% Non-GMO Isolated Soy Protein (90% Protein Dry Basis), Sunflower Lecithin (<1% for instant mixability). Zero additives, zero sugars, zero artificial flavours or colours.",
+    allergens:
+      "Contains Soy. Formulated without gluten, dairy, lactose, or eggs. Produced in a certified food-safety compliant facility.",
+    storage:
+      "Store in a cool, dry place away from moisture and heat. Keep pouch sealed or store in an airtight container.",
+    route: "/products/isolated-soya-protein-powder",
+    badge: "90% Pure Isolate • Unflavoured",
+    highlights: [
+      { label: "Protein Content", value: "27g per 30g Scoop (90%)" },
+      { label: "Carbs & Sugars", value: "<1g Carbs, 0g Added Sugar" },
+      { label: "Purity & Sourcing", value: "100% Vegan & Non-GMO" },
+      { label: "Culinary Versatility", value: "Flour, Dal, Smoothies & Baking" },
+    ],
+  },
 };
 
 export default function NutritionTransparency() {
@@ -64,7 +82,7 @@ export default function NutritionTransparency() {
         </div>
 
         {/* Tab Buttons */}
-        <div className="flex items-center gap-2 bg-[#F0E6D5]/60 p-1.5 rounded-2xl w-fit" role="tablist">
+        <div className="flex flex-wrap items-center gap-2 bg-[#F0E6D5]/60 p-1.5 rounded-2xl w-fit" role="tablist">
           <button
             type="button"
             role="tab"
@@ -76,7 +94,7 @@ export default function NutritionTransparency() {
                 : "text-[#282C27] hover:text-[#244B37] hover:bg-white/50"
             }`}
           >
-            Protein Chapathi Flour
+            Protein Chapathi Mix
           </button>
           <button
             type="button"
@@ -90,6 +108,19 @@ export default function NutritionTransparency() {
             }`}
           >
             Protein Cookies
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={activeTab === "soya"}
+            onClick={() => setActiveTab("soya")}
+            className={`px-5 py-2.5 rounded-xl text-sm font-heading font-bold transition-all ${
+              activeTab === "soya"
+                ? "bg-[#244B37] text-white shadow-sm"
+                : "text-[#282C27] hover:text-[#244B37] hover:bg-white/50"
+            }`}
+          >
+            Isolated Soya Protein Powder
           </button>
         </div>
 

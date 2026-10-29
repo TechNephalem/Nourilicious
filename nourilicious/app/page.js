@@ -14,7 +14,15 @@ export default function Home() {
           {/* Left Column: Copy & Actions */}
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#F0E6D5] border border-[#244B37]/15">
-              <span className="w-2 h-2 rounded-full bg-[#C8784D]" aria-hidden="true"></span>
+              <div className="relative w-4 h-4 shrink-0">
+                <Image
+                  src="/images/logo-icon.png"
+                  alt="Nourilicious Emblem"
+                  fill
+                  sizes="16px"
+                  className="object-contain"
+                />
+              </div>
               <span className="text-xs font-heading font-bold tracking-widest uppercase text-[#244B37]">
                 GOOD FOOD. SMARTER NUTRITION.
               </span>
@@ -26,8 +34,8 @@ export default function Home() {
             </h1>
 
             <p className="text-base sm:text-lg text-[#6B7068] leading-relaxed max-w-xl">
-              Discover protein-enriched chapathi flour and delicious protein cookies, thoughtfully designed to bring more
-              nourishment to your everyday food choices without compromising on familiar taste.
+              Discover protein-enriched chapathi mix, delicious protein cookies, and pure isolated soya protein powder,
+              thoughtfully designed to bring more nourishment to your everyday food choices without compromising on familiar taste.
             </p>
 
             {/* CTAs */}
@@ -153,16 +161,16 @@ export default function Home() {
             </p>
           </div>
 
-          {/* 2-Product Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
-            {/* Product Card 1: Protein Chapathi Flour */}
+          {/* 3-Product Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Product Card 1: Protein Chapathi Mix */}
             <div className="bg-white rounded-3xl overflow-hidden border border-[#282C27]/10 shadow-lg hover:shadow-xl transition-all flex flex-col group">
-              <div className="relative aspect-[16/10] bg-[#FBF7EF] overflow-hidden">
+              <div className="relative aspect-[16/11] bg-[#FBF7EF] overflow-hidden">
                 <Image
                   src="/images/flour-product.jpg"
-                  alt="Minimal kraft and forest-green stand-up pouch beside a wooden bowl of fine chapathi flour, rolling pin, and freshly cooked warm chapathis"
+                  alt="Minimal kraft and forest-green stand-up pouch beside a wooden bowl of fine chapathi flour mix, rolling pin, and freshly cooked warm chapathis"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover card-zoom-img"
                 />
                 <div className="absolute top-4 left-4 bg-[#244B37] text-white text-xs font-heading font-bold px-3 py-1.5 rounded-full shadow-sm">
@@ -170,24 +178,24 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-6">
+              <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-5">
                 <div className="space-y-3">
-                  <div className="flex flex-wrap items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-1.5">
                     <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
-                      Higher Protein
+                      15g Protein / 2 Rotis
                     </span>
                     <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
-                      Whole Grain Wheat
+                      Whole Wheat
                     </span>
                     <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
-                      Soft &amp; Puffy Rotis
+                      Soft &amp; Puffy
                     </span>
                   </div>
 
-                  <h3 className="font-heading font-extrabold text-2xl text-[#282C27]">
-                    Nourilicious Protein Chapathi Flour
+                  <h3 className="font-heading font-extrabold text-xl sm:text-2xl text-[#282C27]">
+                    Nourilicious Protein Chapathi Mix
                   </h3>
-                  <p className="text-sm sm:text-base text-[#6B7068] leading-relaxed">
+                  <p className="text-sm text-[#6B7068] leading-relaxed">
                     Designed to replace ordinary atta seamlessly. Delivers meaningful protein enrichment while rolling out
                     smoothly, puffing on the tawa, and staying soft for family lunchboxes and warm dinners.
                   </p>
@@ -195,20 +203,20 @@ export default function Home() {
 
                 <div className="space-y-4 pt-4 border-t border-[#282C27]/10">
                   <div className="flex items-center justify-between text-xs text-[#6B7068]">
-                    <span>Pack Sizes: <strong>1 kg • 2 kg • 5 kg</strong></span>
+                    <span>Packs: <strong>1 kg • 2 kg • 5 kg</strong></span>
                     <span className="text-[#244B37] font-semibold">Clean-Label Formula</span>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 gap-2.5">
                     <Link
-                      href="/products/protein-chapathi-flour"
-                      className="px-5 py-3 rounded-xl bg-[#244B37] hover:bg-[#173526] text-white font-heading font-bold text-sm text-center transition-colors shadow-sm"
+                      href="/products/protein-chapathi-mix"
+                      className="px-4 py-3 rounded-xl bg-[#244B37] hover:bg-[#173526] text-white font-heading font-bold text-sm text-center transition-colors shadow-sm"
                     >
                       View Product Details →
                     </Link>
                     <Link
                       href="/contact?type=retail"
-                      className="px-5 py-3 rounded-xl bg-[#F0E6D5] hover:bg-[#244B37] hover:text-white text-[#244B37] font-heading font-bold text-sm text-center transition-colors"
+                      className="px-4 py-2.5 rounded-xl bg-[#F0E6D5] hover:bg-[#244B37] hover:text-white text-[#244B37] font-heading font-bold text-xs text-center transition-colors"
                     >
                       Trade &amp; Retail Enquiry
                     </Link>
@@ -219,12 +227,12 @@ export default function Home() {
 
             {/* Product Card 2: Protein Cookies */}
             <div className="bg-white rounded-3xl overflow-hidden border border-[#282C27]/10 shadow-lg hover:shadow-xl transition-all flex flex-col group">
-              <div className="relative aspect-[16/10] bg-[#FBF7EF] overflow-hidden">
+              <div className="relative aspect-[16/11] bg-[#FBF7EF] overflow-hidden">
                 <Image
                   src="/images/cookies-product.jpg"
                   alt="Golden-brown artisanal protein cookies with crisp edges stacked beside an unbranded matte beige and forest-green stand-up pouch"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover card-zoom-img"
                 />
                 <div className="absolute top-4 left-4 bg-[#C8784D] text-white text-xs font-heading font-bold px-3 py-1.5 rounded-full shadow-sm">
@@ -232,24 +240,24 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-6">
+              <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-5">
                 <div className="space-y-3">
-                  <div className="flex flex-wrap items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-1.5">
                     <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
-                      Satisfying Crunch
+                      10g Protein / Cookie
                     </span>
                     <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
-                      Tea-Time Companion
+                      Artisanal Crunch
                     </span>
                     <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
-                      No Clinical Taste
+                      Chai Companion
                     </span>
                   </div>
 
-                  <h3 className="font-heading font-extrabold text-2xl text-[#282C27]">
+                  <h3 className="font-heading font-extrabold text-xl sm:text-2xl text-[#282C27]">
                     Nourilicious Protein Cookies
                   </h3>
-                  <p className="text-sm sm:text-base text-[#6B7068] leading-relaxed">
+                  <p className="text-sm text-[#6B7068] leading-relaxed">
                     Golden-brown baked protein cookies that turn your afternoon chai break, desk snacking, or commute into a
                     nourishing moment. Sweetened with balance and baked without heavy grease or chalkiness.
                   </p>
@@ -257,20 +265,82 @@ export default function Home() {
 
                 <div className="space-y-4 pt-4 border-t border-[#282C27]/10">
                   <div className="flex items-center justify-between text-xs text-[#6B7068]">
-                    <span>Available in: <strong>Pack of 6 • Pack of 12 • Pantry Box</strong></span>
+                    <span>Packs: <strong>6 pk • 12 pk • Pantry Box</strong></span>
                     <span className="text-[#C8784D] font-semibold">High Protein Snack</span>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 gap-2.5">
                     <Link
                       href="/products/protein-cookies"
-                      className="px-5 py-3 rounded-xl bg-[#244B37] hover:bg-[#173526] text-white font-heading font-bold text-sm text-center transition-colors shadow-sm"
+                      className="px-4 py-3 rounded-xl bg-[#244B37] hover:bg-[#173526] text-white font-heading font-bold text-sm text-center transition-colors shadow-sm"
                     >
                       View Product Details →
                     </Link>
                     <Link
                       href="/contact?type=retail"
-                      className="px-5 py-3 rounded-xl bg-[#F0E6D5] hover:bg-[#244B37] hover:text-white text-[#244B37] font-heading font-bold text-sm text-center transition-colors"
+                      className="px-4 py-2.5 rounded-xl bg-[#F0E6D5] hover:bg-[#244B37] hover:text-white text-[#244B37] font-heading font-bold text-xs text-center transition-colors"
+                    >
+                      Trade &amp; Retail Enquiry
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Product Card 3: Isolated Soya Protein Powder */}
+            <div className="bg-white rounded-3xl overflow-hidden border border-[#282C27]/10 shadow-lg hover:shadow-xl transition-all flex flex-col group">
+              <div className="relative aspect-[16/11] bg-[#FBF7EF] overflow-hidden">
+                <Image
+                  src="/images/soya-protein-product.jpg"
+                  alt="Nourilicious Isolated Soya Protein Powder pouch in deep forest green and warm cream with wooden measuring scoop of pure plant protein"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover card-zoom-img"
+                />
+                <div className="absolute top-4 left-4 bg-[#73966B] text-white text-xs font-heading font-bold px-3 py-1.5 rounded-full shadow-sm">
+                  90% Pure Plant Isolate
+                </div>
+              </div>
+
+              <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-5">
+                <div className="space-y-3">
+                  <div className="flex flex-wrap items-center gap-1.5">
+                    <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
+                      27g Protein / Scoop
+                    </span>
+                    <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
+                      0g Added Sugar
+                    </span>
+                    <span className="px-2.5 py-1 rounded-lg bg-[#F0E6D5] text-[#244B37] text-xs font-semibold">
+                      Unflavoured
+                    </span>
+                  </div>
+
+                  <h3 className="font-heading font-extrabold text-xl sm:text-2xl text-[#282C27]">
+                    Nourilicious Isolated Soya Protein Powder
+                  </h3>
+                  <p className="text-sm text-[#6B7068] leading-relaxed">
+                    Pure 90% non-GMO soy protein isolate with zero added sugar and neutral taste. Easily mixes into chapathi
+                    dough, dals, smoothies, and baking for an instant clean protein boost.
+                  </p>
+                </div>
+
+                <div className="space-y-4 pt-4 border-t border-[#282C27]/10">
+                  <div className="flex items-center justify-between text-xs text-[#6B7068]">
+                    <span>Packs: <strong>500 g • 1 kg • 2 kg</strong></span>
+                    <span className="text-[#244B37] font-semibold">100% Vegan &amp; Non-GMO</span>
+                  </div>
+
+                  <div className="grid grid-cols-1 gap-2.5">
+                    <Link
+                      href="/products/isolated-soya-protein-powder"
+                      className="px-4 py-3 rounded-xl bg-[#244B37] hover:bg-[#173526] text-white font-heading font-bold text-sm text-center transition-colors shadow-sm"
+                    >
+                      View Product Details →
+                    </Link>
+                    <Link
+                      href="/contact?type=retail"
+                      className="px-4 py-2.5 rounded-xl bg-[#F0E6D5] hover:bg-[#244B37] hover:text-white text-[#244B37] font-heading font-bold text-xs text-center transition-colors"
                     >
                       Trade &amp; Retail Enquiry
                     </Link>
@@ -553,8 +623,8 @@ export default function Home() {
             Bring Smarter Nutrition to Your Table Today
           </h2>
           <p className="text-base sm:text-lg text-[#F0E6D5]/80 max-w-2xl mx-auto leading-relaxed">
-            Experience protein-enriched chapathi flour and delicious protein cookies. Thoughtfully made for familiar
-            everyday meals and mindful snacking breaks.
+            Experience protein-enriched chapathi mix, delicious protein cookies, and isolated soya protein powder.
+            Thoughtfully made for familiar everyday meals, mindful snacking, and versatile daily cooking.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

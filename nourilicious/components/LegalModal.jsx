@@ -45,8 +45,7 @@ export default function LegalModal({ isOpen, onClose, modalType }) {
         </div>
         <div className="text-sm text-[#6B7068] leading-relaxed space-y-3">
           <p>
-            Welcome to Nourilicious. We are dedicated to providing wholesome, high-quality, protein-enriched staple foods
-            and snacks.
+            Welcome to Nourilicious (operated by Nourilicious Foods Private Limited, Registered Office: Door No. 2/462/1, Edayanallur, Mathigiri, Nagondapalli, Hosur, Krishnagiri – 635110, Tamil Nadu, India). We are dedicated to providing wholesome, high-quality, protein-enriched staple foods and snacks.
           </p>
           <p>
             {isPrivacy

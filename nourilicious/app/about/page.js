@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -47,7 +48,8 @@ export default function AboutPage() {
             <h2 className="font-heading font-bold text-xl text-[#244B37]">Rooted in Familiar Habits</h2>
             <p className="text-sm text-[#6B7068] leading-relaxed">
               Instead of asking people to overhaul how they eat or learn complicated new dietary rituals, we focus on
-              formats already beloved in Indian homes and workplaces: daily chapathis and comforting tea-time cookies.
+              staples and ingredients already beloved in Indian homes and workplaces: daily chapathi mix, comforting tea-time
+              cookies, and versatile plant protein isolate.
             </p>
           </div>
 
@@ -64,8 +66,8 @@ export default function AboutPage() {
         </div>
 
         {/* Manufacturing Quality & Sourcing Standards */}
-        <div className="max-w-6xl mx-auto mt-10 bg-white rounded-3xl p-8 sm:p-10 border border-[#282C27]/10 shadow-md">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="max-w-6xl mx-auto mt-10 bg-white rounded-3xl p-8 sm:p-10 border border-[#282C27]/10 shadow-md space-y-8">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-[#282C27]/10 pb-6">
             <div className="space-y-3">
               <span className="px-3 py-1 rounded-full bg-[#244B37]/10 text-[#244B37] text-xs font-heading font-bold uppercase tracking-wider inline-block">
                 Quality Assurance &amp; Food Safety
@@ -74,7 +76,7 @@ export default function AboutPage() {
                 Rigorous Milling Standards &amp; Certified Clean Sourcing
               </h3>
               <p className="text-sm text-[#6B7068] max-w-2xl leading-relaxed">
-                We partner with certified whole-grain mills and plant-protein processors across India adhering to ISO 22000,
+                We partner with certified whole-grain mills and plant-protein processors adhering to ISO 22000,
                 HACCP, and Good Manufacturing Practices (GMP). Every production batch undergoes multi-stage laboratory testing
                 for purity, protein consistency, moisture levels, and microbiological safety.
               </p>
@@ -85,6 +87,35 @@ export default function AboutPage() {
             >
               Connect With Our Team →
             </Link>
+          </div>
+
+          {/* Registered Corporate Entity & Facility Badge */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 bg-[#FBF7EF] p-5 sm:p-6 rounded-2xl border border-[#282C27]/10">
+            <div className="flex items-center gap-4">
+              <div className="relative h-14 w-40 shrink-0 bg-white rounded-xl p-2 border border-[#282C27]/10 flex items-center justify-center shadow-sm">
+                <Image
+                  src="/images/logo-full.png"
+                  alt="Nourilicious Foods Private Limited"
+                  fill
+                  sizes="160px"
+                  className="object-contain p-1"
+                />
+              </div>
+              <div className="space-y-0.5">
+                <span className="text-xs font-heading font-bold text-[#244B37] uppercase tracking-wider block">
+                  Registered Entity &amp; Facility
+                </span>
+                <h4 className="font-heading font-bold text-base text-[#282C27]">
+                  Nourilicious Foods Private Limited
+                </h4>
+                <p className="text-xs text-[#6B7068] leading-relaxed">
+                  Door No. 2/462/1, Edayanallur, Mathigiri, Nagondapalli, Hosur, Krishnagiri – 635110, Tamil Nadu, India
+                </p>
+                <p className="text-xs text-[#244B37] font-medium pt-0.5">
+                  Direct / WhatsApp: <a href="tel:+918838827928" className="hover:underline">+91 88388 27928</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -99,8 +130,9 @@ export default function AboutPage() {
             “Feel Good About Every Bite”
           </h2>
           <p className="text-base sm:text-lg text-[#6B7068] leading-relaxed">
-            Whether you are kneading our flour for your evening family dinner or reaching into your bag for a crisp cookie
-            between meetings, Nourilicious stands for delicious everyday food you can feel confident about serving and enjoying.
+            Whether you are kneading our chapathi mix for your evening family dinner, boosting daily cooking with pure soya protein
+            isolate, or reaching into your bag for a crisp cookie between meetings, Nourilicious stands for delicious everyday food
+            you can feel confident about serving and enjoying.
           </p>
           <div className="pt-4 flex justify-center gap-4">
             <Link

@@ -29,20 +29,26 @@ const fraunces = Fraunces({
 export const metadata = {
   title: "Nourilicious — Everyday Nutrition. Deliciously Made.",
   description:
-    "Discover protein-enriched chapathi flour and delicious protein cookies, thoughtfully designed to bring more nourishment to your everyday food choices.",
+    "Nourilicious Foods Private Limited: Bringing protein-enriched chapathi mix, protein cookies, and isolated soya protein powder to everyday familiar meals and mindful snacking breaks.",
   keywords: [
     "Nourilicious",
-    "protein chapathi flour",
+    "Nourilicious Foods Private Limited",
+    "protein chapathi mix",
     "protein cookies",
+    "isolated soya protein powder",
     "everyday nutrition",
     "healthy staple food",
     "Indian protein snacks",
   ],
-  authors: [{ name: "Nourilicious" }],
+  icons: {
+    icon: "/images/logo-icon.png",
+    apple: "/images/logo-icon.png",
+  },
+  authors: [{ name: "Nourilicious Foods Private Limited" }],
   openGraph: {
     title: "Nourilicious — Everyday Nutrition. Deliciously Made.",
     description:
-      "Bringing protein-enriched chapathi flour and delicious protein cookies to everyday familiar meals.",
+      "Bringing protein-enriched chapathi mix, delicious protein cookies, and isolated soya protein powder to everyday familiar meals.",
     type: "website",
     locale: "en_IN",
     url: "https://nourilicious.in",

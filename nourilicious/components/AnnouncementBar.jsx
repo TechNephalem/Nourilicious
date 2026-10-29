@@ -22,12 +22,12 @@ export default function AnnouncementBar() {
             aria-hidden="true"
           />
           <p className="font-medium">
-            Nourilicious Brand Preview: Introducing Protein-Enriched Chapathi Flour &amp; Protein Cookies —{" "}
+            Nourilicious Lineup: Protein Chapathi Mix, Protein Cookies &amp; Isolated Soya Protein Powder —{" "}
             <Link
               href="/contact?type=retail"
               className="underline font-semibold text-white hover:text-[#F0E6D5] transition-colors"
             >
-              Register for product availability &amp; trade enquiries
+              Register for availability &amp; trade enquiries
             </Link>
           </p>
         </div>

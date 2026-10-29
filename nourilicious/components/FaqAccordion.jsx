@@ -5,11 +5,15 @@ import { useState } from "react";
 const faqData = [
   {
     q: "What is Nourilicious?",
-    a: "Nourilicious is an everyday nutrition brand dedicated to making good food with smarter nutritional value. Our core philosophy is “Nourishment meets deliciousness.” We enrich familiar dietary staples—starting with chapathi flour and protein cookies—so individuals and families can enjoy balanced nutrition without overhauling their daily eating habits.",
+    a: "Nourilicious is an everyday nutrition brand dedicated to making good food with smarter nutritional value. Our core philosophy is “Nourishment meets deliciousness.” We formulate everyday foods and versatile ingredients—Protein Chapathi Mix, Protein Cookies, and Isolated Soya Protein Powder—so individuals and families can enjoy balanced nutrition without overhauling their daily eating habits.",
   },
   {
-    q: "How is Nourilicious Protein Chapathi Flour different from regular wheat atta?",
-    a: "Regular whole wheat atta generally provides about 10–12% protein. Nourilicious Protein Chapathi Flour is mindfully enriched with plant-based protein sources while preserving the soft texture, natural puff, and familiar comforting taste of home-cooked rotis. It fits seamlessly into your daily lunch and dinner routines.",
+    q: "How is Nourilicious Protein Chapathi Mix different from regular wheat atta?",
+    a: "Regular whole wheat atta generally provides only about 10–12% protein. Nourilicious Protein Chapathi Mix is mindfully enriched with clean plant-based proteins to deliver 15g protein per 2 chapathis while preserving the soft texture, natural puff, and familiar comforting taste of home-cooked rotis.",
+  },
+  {
+    q: "How do I use Nourilicious Isolated Soya Protein Powder in everyday cooking?",
+    a: "Unlike flavored gym supplements, Nourilicious Isolated Soya Protein Powder is 100% unflavoured, pure 90% isolate, and unsweetened. You can knead 1 scoop (30g) directly into your chapathi dough to boost any flour, stir a smooth slurry into simmering dals or soups, blend into morning smoothies, or add to idli/dosa and baking batters without changing their authentic taste.",
   },
   {
     q: "Are Nourilicious products made for bodybuilders or everyday families?",
@@ -17,7 +21,7 @@ const faqData = [
   },
   {
     q: "What makes Nourilicious Protein Cookies different from ordinary snack biscuits?",
-    a: "Standard tea-time biscuits and cookies are typically loaded with refined flour, hydrogenated fats, and excess sugar while offering negligible protein. Nourilicious Protein Cookies combine satisfying golden-brown crispness with meaningful protein content, making them ideal for tea breaks, desk snacks, and travel.",
+    a: "Standard tea-time biscuits and cookies are typically loaded with refined maida, hydrogenated fats, and excess sugar while offering negligible protein. Nourilicious Protein Cookies combine satisfying golden-brown crispness with 10g bioavailable protein per cookie, making them ideal for tea breaks, desk snacks, and travel.",
   },
   {
     q: "Are the nutritional values and ingredient statements verified?",
@@ -32,8 +36,8 @@ const faqData = [
     a: "We welcome partnerships with retail chains, regional FMCG distributors, fitness centers, cafés, and corporate wellness programs. Visit our Contact & Business Enquiry section and select your partnership category to receive our wholesale catalog and trade terms.",
   },
   {
-    q: "Do chapathis made with Nourilicious flour puff and roll out easily?",
-    a: "Absolutely. Our milling formula is crafted to knead smoothly with warm water and roll out into pliable dough without crumbling or drying out. Your chapathis remain soft, flexible, and delicious for lunchboxes and family meals.",
+    q: "Do chapathis made with Nourilicious mix puff and roll out easily?",
+    a: "Absolutely. Our formulation is crafted to knead smoothly with warm water and roll out into pliable dough without crumbling or drying out. Your chapathis remain soft, flexible, and delicious for lunchboxes and family meals.",
   },
 ];
 

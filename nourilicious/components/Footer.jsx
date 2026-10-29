@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import LegalModal from "./LegalModal";
 
@@ -19,24 +20,19 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/10">
           {/* Col 1 (4 Cols): Logo & Brand Description */}
           <div className="lg:col-span-4 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-[#244B37] border border-white/15 flex items-center justify-center text-[#FBF7EF]">
-                <svg className="w-5 h-5" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-                  <path
-                    d="M16 5C16 5 10 11 10 18.5C10 22.6421 12.6863 26 16 26C19.3137 26 22 22.6421 22 18.5C22 11 16 5 16 5Z"
-                    stroke="#FBF7EF"
-                    strokeWidth="2"
-                  />
-                  <path d="M16 11V26" stroke="#C8784D" strokeWidth="2" />
-                </svg>
+            <div className="bg-white/95 px-3.5 py-2 rounded-2xl inline-block shadow-sm">
+              <div className="relative h-12 w-44">
+                <Image
+                  src="/images/logo-full.png"
+                  alt="Nourilicious Foods Private Limited"
+                  fill
+                  sizes="176px"
+                  className="object-contain"
+                />
               </div>
-              <span className="font-heading font-extrabold text-2xl tracking-tight text-white">
-                Nourilicious
-              </span>
             </div>
             <p className="text-sm text-[#F0E6D5]/80 leading-relaxed max-w-sm">
-              Everyday Nutrition. Deliciously Made. Bringing protein-enriched chapathi flour and delicious protein cookies to
-              familiar Indian meals and daily routines.
+              Everyday Nutrition. Deliciously Made. Bringing protein chapathi mix, protein cookies, and isolated soya protein powder to familiar Indian meals and daily routines.
             </p>
             <p className="text-xs text-[#F0E6D5]/60">
               Core Brand Promise: Nourishment meets deliciousness.
@@ -84,13 +80,18 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm text-[#F0E6D5]/85">
               <li>
-                <Link href="/products/protein-chapathi-flour" className="hover:text-white transition-colors">
-                  Protein Chapathi Flour
+                <Link href="/products/protein-chapathi-mix" className="hover:text-white transition-colors">
+                  Protein Chapathi Mix
                 </Link>
               </li>
               <li>
                 <Link href="/products/protein-cookies" className="hover:text-white transition-colors">
                   Protein Cookies
+                </Link>
+              </li>
+              <li>
+                <Link href="/products/isolated-soya-protein-powder" className="hover:text-white transition-colors">
+                  Isolated Soya Protein Powder
                 </Link>
               </li>
               <li>
@@ -130,10 +131,13 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <strong className="text-white">Phone:</strong> +91 (0) 80 4123 4567
+                <strong className="text-white">Phone / WhatsApp:</strong>{" "}
+                <a href="tel:+918838827928" className="hover:text-white underline">
+                  +91 88388 27928
+                </a>
               </p>
               <p>
-                <strong className="text-white">Headquarters:</strong> Nourilicious Foods Pvt. Ltd., Indiranagar, Bengaluru - 560038, Karnataka, India
+                <strong className="text-white">Registered Office &amp; Facility:</strong> Nourilicious Foods Private Limited, Door No. 2/462/1, Edayanallur, Mathigiri, Nagondapalli, Hosur, Krishnagiri – 635110, Tamil Nadu, India
               </p>
               <p>
                 <strong className="text-white">Socials:</strong> @nouriliciousfoods

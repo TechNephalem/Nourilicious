@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -21,30 +22,18 @@ export default function Navbar() {
         <Link
           href="/"
           onClick={closeMobile}
-          className="flex items-center gap-3 group focus:outline-none"
+          className="flex items-center gap-2 group focus:outline-none py-1"
+          aria-label="Nourilicious Foods Private Limited - Home"
         >
-          <div className="w-10 h-10 rounded-xl bg-[#244B37] flex items-center justify-center text-[#FBF7EF] shadow-sm group-hover:bg-[#173526] transition-colors">
-            {/* Botanical Grain & Leaf SVG Emblem */}
-            <svg className="w-6 h-6" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-              <path
-                d="M16 5C16 5 10 11 10 18.5C10 22.6421 12.6863 26 16 26C19.3137 26 22 22.6421 22 18.5C22 11 16 5 16 5Z"
-                stroke="#FBF7EF"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path d="M16 11V26" stroke="#C8784D" strokeWidth="2" strokeLinecap="round" />
-              <path d="M16 16L19.5 13M16 19.5L12.5 16.5" stroke="#FBF7EF" strokeWidth="1.8" strokeLinecap="round" />
-              <circle cx="16" cy="4" r="1.5" fill="#C8784D" />
-            </svg>
-          </div>
-          <div>
-            <span className="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-[#244B37] block leading-none">
-              Nourilicious
-            </span>
-            <span className="text-[11px] font-medium tracking-wider uppercase text-[#6B7068] block mt-0.5">
-              Nourishment Meets Deliciousness
-            </span>
+          <div className="relative h-12 w-40 sm:h-14 sm:w-48 transition-transform group-hover:scale-[1.02]">
+            <Image
+              src="/images/logo-full.png"
+              alt="Nourilicious Foods Private Limited"
+              fill
+              sizes="(max-width: 640px) 160px, 192px"
+              className="object-contain object-left"
+              priority
+            />
           </div>
         </Link>
 
@@ -83,21 +72,21 @@ export default function Navbar() {
             </button>
 
             <div
-              className={`transition-all duration-200 absolute left-0 mt-1 w-64 bg-white rounded-2xl shadow-xl border border-[#282C27]/10 p-2 z-50 ${
+              className={`transition-all duration-200 absolute left-0 mt-1 w-72 bg-white rounded-2xl shadow-xl border border-[#282C27]/10 p-2 z-50 ${
                 dropdownOpen ? "visible opacity-100 translate-y-0" : "invisible opacity-0 -translate-y-2 pointer-events-none"
               }`}
             >
               <Link
-                href="/products/protein-chapathi-flour"
+                href="/products/protein-chapathi-mix"
                 className="w-full text-left px-3.5 py-2.5 rounded-xl hover:bg-[#FBF7EF] transition-colors flex items-start gap-3 group"
                 onClick={() => setDropdownOpen(false)}
               >
                 <span className="w-2.5 h-2.5 rounded-full bg-[#244B37] mt-1.5 shrink-0"></span>
                 <div>
                   <span className="block text-sm font-heading font-bold text-[#282C27] group-hover:text-[#244B37]">
-                    Protein Chapathi Flour
+                    Protein Chapathi Mix
                   </span>
-                  <span className="block text-xs text-[#6B7068]">For familiar everyday meals</span>
+                  <span className="block text-xs text-[#6B7068]">Enriched mix for soft daily rotis</span>
                 </div>
               </Link>
               <Link
@@ -110,7 +99,20 @@ export default function Navbar() {
                   <span className="block text-sm font-heading font-bold text-[#282C27] group-hover:text-[#C8784D]">
                     Protein Cookies
                   </span>
-                  <span className="block text-xs text-[#6B7068]">For busy days &amp; snack breaks</span>
+                  <span className="block text-xs text-[#6B7068]">Crisp crunch for mindful snack breaks</span>
+                </div>
+              </Link>
+              <Link
+                href="/products/isolated-soya-protein-powder"
+                className="w-full text-left px-3.5 py-2.5 rounded-xl hover:bg-[#FBF7EF] transition-colors flex items-start gap-3 group mt-1"
+                onClick={() => setDropdownOpen(false)}
+              >
+                <span className="w-2.5 h-2.5 rounded-full bg-[#73966B] mt-1.5 shrink-0"></span>
+                <div>
+                  <span className="block text-sm font-heading font-bold text-[#282C27] group-hover:text-[#73966B]">
+                    Isolated Soya Protein Powder
+                  </span>
+                  <span className="block text-xs text-[#6B7068]">90% pure plant isolate for everyday meals</span>
                 </div>
               </Link>
             </div>
@@ -193,11 +195,11 @@ export default function Navbar() {
               Our Products
             </p>
             <Link
-              href="/products/protein-chapathi-flour"
+              href="/products/protein-chapathi-mix"
               onClick={closeMobile}
               className="w-full block px-3 py-2 rounded-lg text-sm font-semibold text-[#282C27] hover:bg-[#F0E6D5]/50"
             >
-              • Protein Chapathi Flour
+              • Protein Chapathi Mix
             </Link>
             <Link
               href="/products/protein-cookies"
@@ -205,6 +207,13 @@ export default function Navbar() {
               className="w-full block px-3 py-2 rounded-lg text-sm font-semibold text-[#282C27] hover:bg-[#F0E6D5]/50"
             >
               • Protein Cookies
+            </Link>
+            <Link
+              href="/products/isolated-soya-protein-powder"
+              onClick={closeMobile}
+              className="w-full block px-3 py-2 rounded-lg text-sm font-semibold text-[#282C27] hover:bg-[#F0E6D5]/50"
+            >
+              • Isolated Soya Protein Powder
             </Link>
           </div>
           <Link
