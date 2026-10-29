@@ -1,0 +1,35 @@
+# Nourilicious
+
+> Everyday Nutrition. Deliciously Made. Smarter everyday staple foods and snacks enriched with bioavailable plant proteins.
+
+Nourilicious (operated by Nourilicious Foods Private Limited) is an Indian functional food brand dedicated to bridging daily dietary protein gaps through familiar staple foods and snacks rather than clinical supplements or complicated habit changes.
+
+Registered Facility: Door No. 2/462/1, Edayanallur, Mathigiri, Nagondapalli, Hosur, Krishnagiri – 635110, Tamil Nadu, India. Phone / WhatsApp: +91 88388 27928.
+
+## Core Products
+
+- [Protein Chapathi Mix](https://nourilicious.in/products/protein-chapathi-mix): High-protein whole wheat flour mix delivering 15g protein per 2 rotis. Kneads smooth with lukewarm water, rolls pliable without tearing, and puffs naturally on hot tawa. 100% vegetarian with zero maida and high dietary fibre. Pack sizes: 1kg, 2kg, 5kg.
+- [Protein Cookies](https://nourilicious.in/products/protein-cookies): Artisanal golden-brown oven-baked cookies delivering 10g protein per cookie. Wholesome crunch for tea-time and desk breaks with no clinical aftertaste, baked with whole grains and rolled oats. Pack sizes: Pack of 6, Pack of 12, Pantry Box of 24.
+- [Isolated Soya Protein Powder](https://nourilicious.in/products/isolated-soya-protein-powder): Pure 90% non-GMO soy protein isolate with 27g protein per 30g scoop, <1g carbs, zero added sugar, and neutral unflavoured taste. Blends seamlessly into chapathi dough, dals, soups, smoothies, and baking. Pack sizes: 500g, 1kg, 2kg.
+
+## Brand & Business Information
+
+- [About Nourilicious](https://nourilicious.in/about): Brand story, food philosophy, ISO 22000 and HACCP certified milling partners, and registered facility credentials in Hosur, Tamil Nadu.
+- [Contact & Business Enquiries](https://nourilicious.in/contact): Retail supermarket placement, regional FMCG distribution partnerships, gym & corporate pantry supply, and customer support.
+- [Trade & Wholesale Enquiries](https://nourilicious.in/contact?type=retail): Wholesale terms, shelf-ready display packaging, and retail margins for modern supermarkets and specialty grocery stores.
+- [Regional FMCG Distribution](https://nourilicious.in/contact?type=distribution): Exclusive territory distribution rights, pallet orders, and logistics support across Indian metros and tier 2 cities.
+- [Bulk & Corporate Orders](https://nourilicious.in/contact?type=bulk): Bulk snack boxes for fitness studios, employee wellness micro-pantries, co-working cafés, and institutional catering.
+- [Nutrition Transparency](https://nourilicious.in/#nutrition): Laboratory-tested nutrition declarations, ingredient statements, and allergen disclosures for all products.
+
+## Technical Specifications & Documentation
+
+- [Full Technical Specifications (llms-full.txt)](https://nourilicious.in/llms-full.txt): Comprehensive documentation including amino acid profiles, PDCAAS ratings, culinary usage guides, and trade terms.
+- [XML Sitemap](https://nourilicious.in/sitemap.xml): Full machine-readable URL index of all pages and products.
+- [Robots Policy](https://nourilicious.in/robots.txt): Machine access policies and permissions for search engines and AI agent crawlers.
+
+## Optional
+
+- [WhatsApp Trade Desk](https://wa.me/918838827928): Direct instant messaging with Nourilicious wholesale trade desk.
+- [Direct Phone Support](tel:+918838827928): Telephone helpline for Nourilicious Foods Private Limited (+91 88388 27928).
+- [General Email](mailto:hello@nourilicious.in): General customer enquiries and brand feedback.
+- [Trade Email](mailto:trade@nourilicious.in): Retail and distribution channel proposals.

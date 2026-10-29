@@ -1,0 +1,74 @@
+# Nourilicious Foods Private Limited — Full Technical & Product Specification
+
+> Everyday Nutrition. Deliciously Made. Complete product catalog, formulation standards, amino acid profiles, and commercial partnership terms for AI agents and search engines.
+
+Nourilicious Foods Private Limited operates the Nourilicious functional food brand, registered at Door No. 2/462/1, Edayanallur, Mathigiri, Nagondapalli, Hosur, Krishnagiri – 635110, Tamil Nadu, India. Phone / WhatsApp: +91 88388 27928.
+
+## Main Navigation & Web Resources
+
+- [Home](https://nourilicious.in): Flagship showcase, nutritional transparency, and everyday meal inspirations.
+- [Protein Chapathi Mix](https://nourilicious.in/products/protein-chapathi-mix): High-protein whole wheat flour mix delivering 15g protein per 2 rotis.
+- [Protein Cookies](https://nourilicious.in/products/protein-cookies): Artisanal golden-brown oven-baked cookies with 10g protein per cookie.
+- [Isolated Soya Protein Powder](https://nourilicious.in/products/isolated-soya-protein-powder): Pure 90% non-GMO soy protein isolate with 27g protein per 30g scoop.
+- [About Us](https://nourilicious.in/about): Company background, food philosophy, and ISO 22000 / HACCP certified sourcing standards.
+- [Contact & Business Desk](https://nourilicious.in/contact): Trade desk, wholesale distribution inquiries, and corporate wellness orders.
+- [XML Sitemap](https://nourilicious.in/sitemap.xml): Machine-readable index of canonical website URLs.
+- [Robots Configuration](https://nourilicious.in/robots.txt): Crawler rules permitting AI agents and search bots.
+
+## Product 1: Nourilicious Protein Chapathi Mix
+
+- [Product Page](https://nourilicious.in/products/protein-chapathi-mix): Official detail page and pack selector.
+- [Wholesale Order Registration](https://nourilicious.in/contact?type=retail): Register for retail & wholesale launches.
+- Category: Everyday Staple Food / Whole Wheat Flour Mix
+- Serving Size: 50g (produces approx. 2 medium chapathis) | Servings per 1kg pack: 20
+- Protein Content: 15g protein per 2 chapathis (30% protein concentration by dry weight)
+- Dietary Fibre: 6.5g per 2 chapathis (13g per 100g)
+- Ingredients: Premium Sharbati Whole Wheat Flour (Gehun), Isolated Plant Protein Blend (Pea Protein, Soy Protein Isolate), Whole Grain Dietary Fibre.
+- Allergens: Contains Wheat (Gluten), Soy. Produced in a certified clean facility adhering to strict allergen control protocols.
+- Pack Options: 1 kg pouch (~20 rotis), 2 kg pouch (~40 rotis), 5 kg pantry saver pack (~100 rotis).
+- Culinary Method: Knead with lukewarm water (2 cups flour mix to 1 cup water), rest covered for 10–15 minutes, roll with gentle strokes, cook on hot tawa until puffed. Chapathis remain soft for hours in tiffins.
+
+## Product 2: Nourilicious Protein Cookies
+
+- [Product Page](https://nourilicious.in/products/protein-cookies): Official detail page and cookie pack options.
+- [Retail Placement Enquiry](https://nourilicious.in/contact?type=retail): Inquire for modern grocery and supermarket shelf display.
+- Category: Mindful High-Protein Baked Snack
+- Serving Size: 30g (1 cookie) | Servings per 12-pack: 12
+- Protein Content: 10g protein per cookie (33.3g protein per 100g)
+- Texture: Authentic oven-baked crispness with golden-brown crumb; no clinical or chalky supplement aftertaste.
+- Ingredients: Whole Grain Wheat Flour, Rolled Oats, Plant & Dairy Protein Blend (Pea Protein Isolate, Whey Protein Isolate), Cold-Pressed Vegetable Oil, Unrefined Cane Sugar, Cocoa / Natural Botanical Flavours, Baking Powder, Sea Salt.
+- Allergens: Contains Milk, Wheat (Gluten), Oats. May contain traces of tree nuts and soy.
+- Pack Options: Pack of 6 (trial pouch), Pack of 12 (standard pantry box), Pantry Box of 24 (family & office bundle).
+
+## Product 3: Nourilicious Isolated Soya Protein Powder
+
+- [Product Page](https://nourilicious.in/products/isolated-soya-protein-powder): Official detail page with pack selector.
+- [Bulk & Institutional Enquiry](https://nourilicious.in/contact?type=bulk): Bulk sourcing for commercial kitchens, gyms, and health bars.
+- Category: Pure Plant Protein Isolate / Unflavoured Kitchen Booster
+- Serving Size: 30g (1 level scoop) | Servings per 1kg pack: ~33
+- Protein Content: 27g protein per 30g scoop (90% pure isolate dry basis)
+- Macronutrients: <1g net carbohydrates, 0g added sugar, 0.5g fat, 0mg cholesterol, 0g lactose (100% vegan).
+- Amino Acid Profile: Complete protein with all 9 Essential Amino Acids (EAAs), rich in BCAAs (Leucine, Isoleucine, Valine) and Glutamine. PDCAAS = 1.0 (highest possible bio-availability rating).
+- Ingredients: 100% Non-GMO Soy Protein Isolate (90% Protein Dry Basis), Non-GMO Sunflower Lecithin (<1% for instant lump-free mixability). Zero thickeners, zero artificial flavors, zero chemical preservatives.
+- Allergens: Contains Soy. Formulated without gluten, dairy, lactose, or eggs.
+- Pack Options: 500 g pouch (~17 scoops), 1 kg pouch (~33 scoops), 2 kg value pantry pouch (~66 scoops).
+- 4 Culinary Applications:
+  1. Chapathi & Paratha Dough: Add 1 scoop per 2 cups wheat flour before kneading.
+  2. Dals, Soups & Curries: Whisk 1 scoop with 3 tbsp warm water to form an emulsion slurry; stir into simmering dal tadka, rasam, or vegetable gravy 2 minutes before serving.
+  3. Smoothies & Oats: Blend with almond milk, fruit, and oats for a 27g vegan protein breakfast shake.
+  4. Batters & Baking: Stir into idli/dosa batter, besan chilla, or substitute 15-20% flour in pancakes, muffins, and breads.
+
+## Corporate Governance & Standards
+
+- [About Page](https://nourilicious.in/about): Detailed food standards and partner mill certifications.
+- Quality Certifications: Partner mills operate under ISO 22000, HACCP, and Good Manufacturing Practices (GMP) with multi-stage laboratory testing for moisture, microbiological safety, and protein consistency.
+- Registered Address: Nourilicious Foods Private Limited, Door No. 2/462/1, Edayanallur, Mathigiri, Nagondapalli, Hosur, Krishnagiri – 635110, Tamil Nadu, India.
+- Operating Hours: Monday – Saturday, 9:30 AM – 6:30 PM IST.
+
+## Optional Communications & Trade Channels
+
+- [WhatsApp Trade Desk](https://wa.me/918838827928): Instant messaging with wholesale operations.
+- [Telephone Support](tel:+918838827928): Direct phone line to Nourilicious corporate office (+91 88388 27928).
+- [General Email](mailto:hello@nourilicious.in): Consumer inquiries and feedback.
+- [Trade Desk Email](mailto:trade@nourilicious.in): B2B sales and regional distributorship proposals.
+- [Legal Email](mailto:legal@nourilicious.in): Compliance and corporate governance.

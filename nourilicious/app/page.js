@@ -3,9 +3,91 @@ import Link from "next/link";
 import NutritionTransparency from "@/components/NutritionTransparency";
 import FaqAccordion from "@/components/FaqAccordion";
 
+const homepageJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemList",
+      "@id": "https://nourilicious.in/#product-list",
+      name: "Nourilicious Flagship Nutrition Products",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Nourilicious Protein Chapathi Mix",
+          url: "https://nourilicious.in/products/protein-chapathi-mix",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Nourilicious Protein Cookies",
+          url: "https://nourilicious.in/products/protein-cookies",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Nourilicious Isolated Soya Protein Powder",
+          url: "https://nourilicious.in/products/isolated-soya-protein-powder",
+        },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nourilicious.in/#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is Nourilicious?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nourilicious is an everyday nutrition brand dedicated to making good food with smarter nutritional value. Our core philosophy is 'Nourishment meets deliciousness.' We formulate everyday foods and versatile ingredients—Protein Chapathi Mix, Protein Cookies, and Isolated Soya Protein Powder—so individuals and families can enjoy balanced nutrition without overhauling their daily eating habits.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How is Nourilicious Protein Chapathi Mix different from regular wheat atta?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Regular whole wheat atta generally provides only about 10–12% protein. Nourilicious Protein Chapathi Mix is mindfully enriched with clean plant-based proteins to deliver 15g protein per 2 chapathis while preserving the soft texture, natural puff, and familiar comforting taste of home-cooked rotis.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do I use Nourilicious Isolated Soya Protein Powder in everyday cooking?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Unlike flavored gym supplements, Nourilicious Isolated Soya Protein Powder is 100% unflavoured, pure 90% isolate, and unsweetened. You can knead 1 scoop (30g) directly into your chapathi dough to boost any flour, stir a smooth slurry into simmering dals or soups, blend into morning smoothies, or add to idli/dosa and baking batters without changing their authentic taste.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What makes Nourilicious Protein Cookies different from ordinary snack biscuits?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Standard tea-time biscuits and cookies are typically loaded with refined maida, hydrogenated fats, and excess sugar while offering negligible protein. Nourilicious Protein Cookies combine satisfying golden-brown crispness with 10g bioavailable protein per cookie, making them ideal for tea breaks, desk snacks, and travel.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Where is Nourilicious Foods Private Limited located?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nourilicious Foods Private Limited is registered at Door No. 2/462/1, Edayanallur, Mathigiri, Nagondapalli, Hosur, Krishnagiri – 635110, Tamil Nadu, India.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
+      {/* Schema.org FAQ & Product List for Search Engines & AI Crawlers */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageJsonLd) }}
+      />
       {/* ========================================================= */}
       {/* HERO SECTION                                              */}
       {/* ========================================================= */}

@@ -2,14 +2,57 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Us — Nourilicious | Nutrition That Belongs in Everyday Life",
+  title: "About Us — Nutrition That Belongs in Everyday Life",
   description:
-    "Learn about Nourilicious, our food philosophy, and our mission to bring smarter everyday nutrition to familiar Indian meals and mindful snacking routines.",
+    "Learn about Nourilicious Foods Private Limited, our food philosophy, registered facility in Hosur, Krishnagiri, and our mission to bring smarter everyday nutrition to familiar Indian meals.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "About Nourilicious — Nutrition That Belongs in Everyday Life",
+    description:
+      "Everyday Nutrition. Deliciously Made. Learn about Nourilicious Foods Private Limited and our clean-label functional food philosophy.",
+    url: "https://nourilicious.in/about",
+  },
+};
+
+const aboutJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://nourilicious.in/about#webpage",
+      url: "https://nourilicious.in/about",
+      name: "About Nourilicious Foods Private Limited",
+      description: "Learn about our brand story, mission, and certified clean food sourcing.",
+      breadcrumb: {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://nourilicious.in",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "About Us",
+            item: "https://nourilicious.in/about",
+          },
+        ],
+      },
+    },
+  ],
 };
 
 export default function AboutPage() {
   return (
     <div className="bg-[#FBF7EF] min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd) }}
+      />
       {/* Header Banner */}
       <section className="py-14 sm:py-20 px-4 sm:px-8 bg-[#FBF7EF] border-b border-[#282C27]/10">
         <div className="max-w-5xl mx-auto space-y-6">

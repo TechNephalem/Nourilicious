@@ -2,14 +2,71 @@ import Image from "next/image";
 import EnquiryForm from "@/components/EnquiryForm";
 
 export const metadata = {
-  title: "Contact & Business Enquiries — Nourilicious",
+  title: "Contact & Trade Enquiries — Nourilicious Foods Private Limited",
   description:
-    "Get in touch with Nourilicious for retail partnerships, FMCG distribution, corporate pantry supply, or customer product enquiries.",
+    "Get in touch with Nourilicious Foods Private Limited for retail partnerships, FMCG distribution, corporate bulk supply, or customer support. Call/WhatsApp: +91 88388 27928.",
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    title: "Contact & Trade Enquiries — Nourilicious",
+    description:
+      "Partner with Nourilicious for supermarket placement, regional FMCG distribution, and corporate supply. Hosur, Tamil Nadu facility.",
+    url: "https://nourilicious.in/contact",
+  },
+};
+
+const contactJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "https://nourilicious.in/contact#webpage",
+      url: "https://nourilicious.in/contact",
+      name: "Contact Nourilicious Foods Private Limited",
+      description: "Trade desk, wholesale retail enquiries, and customer contact information.",
+      mainEntity: {
+        "@type": "Organization",
+        name: "Nourilicious Foods Private Limited",
+        telephone: "+91-88388-27928",
+        email: "trade@nourilicious.in",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Door No. 2/462/1, Edayanallur, Mathigiri, Nagondapalli",
+          addressLocality: "Hosur",
+          addressRegion: "Tamil Nadu",
+          postalCode: "635110",
+          addressCountry: "IN",
+        },
+      },
+      breadcrumb: {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://nourilicious.in",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Contact",
+            item: "https://nourilicious.in/contact",
+          },
+        ],
+      },
+    },
+  ],
 };
 
 export default function ContactPage() {
   return (
     <div className="bg-[#FBF7EF] min-h-screen py-12 sm:py-16 px-4 sm:px-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactJsonLd) }}
+      />
       <div className="max-w-7xl mx-auto space-y-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
           {/* Left Column (5 Cols): Context & Channel Info */}

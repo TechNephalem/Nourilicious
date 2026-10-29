@@ -1,0 +1,74 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Nourilicious Foods Private Limited",
+    "identifier": "urn:air:nourilicious.in:host:nourilicious",
+    "documentationUrl": "https://nourilicious.in/llms.txt",
+    "logoUrl": "https://nourilicious.in/images/logo-full.png"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:nourilicious.in:products:protein-chapathi-mix",
+      "displayName": "Nourilicious Protein Chapathi Mix",
+      "type": "text/html",
+      "url": "https://nourilicious.in/products/protein-chapathi-mix",
+      "description": "High-protein whole wheat flour mix delivering 15g protein per 2 rotis. Kneads smooth with lukewarm water, rolls pliable without tearing, and puffs naturally on hot tawa.",
+      "tags": ["staple-food", "atta", "protein-chapathi", "whole-wheat"],
+      "capabilities": ["ProductInformation", "NutritionDeclaration", "WholesaleEnquiry"],
+      "representativeQueries": [
+        "What is the protein content in Nourilicious Protein Chapathi Mix?",
+        "Where can I buy whole wheat high protein atta in India?",
+        "How do you make soft rotis with protein flour?"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-10-30T00:00:00Z"
+    },
+    {
+      "identifier": "urn:air:nourilicious.in:products:protein-cookies",
+      "displayName": "Nourilicious Protein Cookies",
+      "type": "text/html",
+      "url": "https://nourilicious.in/products/protein-cookies",
+      "description": "Artisanal golden-brown oven-baked cookies delivering 10g protein per cookie. Wholesome crunch for tea-time and desk breaks with no clinical aftertaste.",
+      "tags": ["snacks", "protein-cookies", "tea-time", "baked-goods"],
+      "capabilities": ["ProductInformation", "NutritionDeclaration", "WholesaleEnquiry"],
+      "representativeQueries": [
+        "How much protein is in Nourilicious protein cookies?",
+        "What are healthy high protein cookies for chai time?",
+        "How to order Nourilicious cookies for office pantries?"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-10-30T00:00:00Z"
+    },
+    {
+      "identifier": "urn:air:nourilicious.in:products:isolated-soya-protein-powder",
+      "displayName": "Nourilicious Isolated Soya Protein Powder",
+      "type": "text/html",
+      "url": "https://nourilicious.in/products/isolated-soya-protein-powder",
+      "description": "Pure 90% non-GMO soy protein isolate with 27g protein per 30g scoop, <1g carbs, zero added sugar, and neutral unflavoured taste for versatile everyday cooking.",
+      "tags": ["protein-powder", "soya-isolate", "unflavoured", "vegan", "cooking-booster"],
+      "capabilities": ["ProductInformation", "NutritionDeclaration", "CulinaryApplications"],
+      "representativeQueries": [
+        "How to use isolated soya protein powder in chapathi dough?",
+        "Where to buy 90 percent pure unflavoured soy protein isolate?",
+        "Can I add soy protein powder to dal and soups without clumping?"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-10-30T00:00:00Z"
+    },
+    {
+      "identifier": "urn:air:nourilicious.in:docs:llms-specification",
+      "displayName": "Nourilicious LLM Agent Documentation",
+      "type": "text/markdown",
+      "url": "https://nourilicious.in/llms.txt",
+      "description": "Structured machine-readable discovery documentation for autonomous AI agents and large language models.",
+      "tags": ["documentation", "llm", "agentic-discovery", "ai-sitemap"],
+      "capabilities": ["AgenticDiscovery", "BrandContext", "ProductCataloging"],
+      "representativeQueries": [
+        "What products does Nourilicious Foods Private Limited make?",
+        "What is the corporate address and contact for Nourilicious?"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-10-30T00:00:00Z"
+    }
+  ]
+}
